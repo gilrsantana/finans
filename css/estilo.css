@@ -15,3 +15,38 @@
 .assinatura-rodape {
 	font-size: 12px;
 
+
+/* Dispositivos extra small (telefones em modo retrato, com menos de 576px) */
+@media (max-width: 575.98px) {
+	.titulo-capa {
+	font-size: 2.2em;
+	}
+}
+
+/* Dispositivos small (telefones em modo paisagem, com 576px ou mais) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.titulo-capa {
+	font-size: 3em;
+	}
+}
+
+/* Dispositivos médios (tablets com 768px ou mais) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.titulo-capa {
+	font-size: 3em;
+	}
+}
+
+/* Dispositivos large (desktops com 992px ou mais) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	.titulo-capa {
+	font-size: 4em;
+	}
+}
+
+/* Dispositivos extra large (desktops grandes com 1200px ou mais) */
+@media (min-width: 1200px) {
+	.titulo-capa {
+	font-size: 5em;
+	}
+}
